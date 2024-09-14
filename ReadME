@@ -1,0 +1,5 @@
+Using React and node to practice a Full Stack application has the basic of the application. 
+MongoDB: A NoSQL, object-oriented database designed for use with cloud applications
+Express(.js): A web application framework for Node(.js) that supports interactions between the front end (e.g., the client side) and the database
+
+Developer familiarity: A key factor in choosing which framework to work with is developer familiarity. Many development teams will choose a stack based on team member experience and comfort levels, assuming there is no significant impact on project deliverables. Single page applications (SPAs):

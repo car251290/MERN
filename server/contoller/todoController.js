@@ -1,7 +1,7 @@
 // controller/todoController.js
 const Todo = require('../model/todoModel');
 
-// Get all todos
+// Get all todos from the database
 exports.getTodos = async (req, res) => {
   try {
     const todos = await Todo.find();
@@ -12,7 +12,7 @@ exports.getTodos = async (req, res) => {
   }
 };
 
-// Create a new todo
+// Create a new todo item
 exports.createTodo = async (req, res) => {
   try {
     const { title, completed } = req.body;
